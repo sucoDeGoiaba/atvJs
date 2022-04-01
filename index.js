@@ -61,3 +61,22 @@ const {colors} = company.products.shirts
 
 // console.log(name);
 // console.log(colors);
+
+// Rest & Spread
+// Utilizando um operador, clone o objeto clothes
+const clothes = {
+    pants: { colors: ['black', 'blue'] },
+    shirts: { colors: ['white', 'red'] },
+    socks: { colors: ['beige', 'gray'] }
+};
+
+const cloneClothes = {...clothes}
+// console.log(cloneClothes);
+
+// Novamente utilizando um operador, clone o objeto clothes acima e adicione a este clone:
+// um objeto shoes com propriedade : colors: ['yellow', 'purple']
+// De modo que fique igual aos objetos pants, shirts e socks
+
+const cloneClothes2 = {shoes : {colors: ['yellow', 'purple']}, ...clothes}
+console.log(cloneClothes2);
+
