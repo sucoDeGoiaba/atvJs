@@ -10,7 +10,7 @@ const upperName = (name) => {
 const myFunction = (p1, p2)=>{
     return p1 * p2
 }
-console.log(myFunction(2, 2));
+// console.log(myFunction(2, 2));
 
 // function toCelsius(fahrenheit) { return (5 / 9) * (fahrenheit - 32); }
 const toCelsius = (fahrenheit)=>{
